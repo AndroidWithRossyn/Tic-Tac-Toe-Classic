@@ -12,7 +12,7 @@
 
 > Note: `-- Apache License 2.0` you can't Publish any Source code without permission.
 # 
-![TIC TAC TOE](https://user-images.githubusercontent.com/97843190/186829757-872d6cf2-1804-4a54-84c7-5c43b24a464e.png)
+
 
 <p align="center">
     <a href="https://www.paypal.com/paypalme/banrossyn">
