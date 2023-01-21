@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#EC2045</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="secondaryTextColor">#9E9E9E</color>
+    <color name="strokeColor">#9E9E9E</color>
+    <color name="feedbackTextColor">#FFFFFF</color>
+    <color name="hintTextColor">#9E9E9E</color>
+    <color name="contentBackgroundColor">#000000</color>
+    <color name="textFieldColor">#0F0F0F</color>
+    <color name="buttonBackgroundColor">#000000</color>
+    <color name="ratingBarColor">#FFD600</color>
+    <color name="cardBackgroundColor">#212121</color>
+
+</resources>

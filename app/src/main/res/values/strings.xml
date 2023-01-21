@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">Tic Tac Toe</string>
+    <string name="version" translatable="false">v1.0.0</string>
+    <string name="author" translatable="false">Ban Rossyn</string>
+    <string name="aboutme" translatable="false">Ban Rossyn</string>
+
+    <string name="Googleplay_games_App_ID" translatable="false">399426274105</string>
+    <string name="package_name" translatable="false">com.banrossyn.tic.tac.toe</string>
+
+<!--    <string name="leaderboard_id" translatable="false">CgkI7s33mJkPEAIQAg</string>-->
+<!--    <string name="my_achievement_id" translatable="false">CgkI7s33mJkPEAIQAQ</string>-->
+
+    <string name="App_ID" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="BannerAd" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="InterstitialAd" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="moregamesurl" translatable="false">https://play.google.com/store/apps/dev?id=5306067645342206751</string>
+
+    <string name="player1nameHint" translatable="false">player1 name</string>
+    <string name="player2nameHint" translatable="false">player2 name</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="about" translatable="false">About</string>
+    <string name="exit" translatable="false">Exit</string>
+    <string name="title_activity_afterstart" translatable="false">Tic Tac Toe</string>
+    <string name="pick_your_side" translatable="false">Pick your side</string>
+    <string name="choose_your_play_mode" translatable="false">Choose your play mode</string>
+    <string name="with_ai" translatable="false">Single Player</string>
+    <string name="with_a_friend" translatable="false">Multi Player</string>
+    <string name="enter_your_name" translatable="false">Enter your Name</string>
+    <string name="user_name" translatable="false">user name</string>
+    <string name="second_player_name" translatable="false">AI</string>
+    <string name="do_you_want_to_exit" translatable="false">Do you want to exit?</string>
+</resources>

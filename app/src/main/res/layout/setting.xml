@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#C7C7C7"
+    android:elevation="15dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tic"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/textview_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:text="Music"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_music_select"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/music_on"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/radio_shape_btn_on"
+                android:padding="7dp"
+                android:button="@null"
+                android:text="ON"
+                android:textAlignment="center"
+                android:textColor="#AB707776"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/music_off"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/radio_shape_btn_off"
+                android:padding="7dp"
+                android:button="@null"
+                android:maxLines="1"
+                android:text="OFF"
+                android:textAlignment="center"
+                android:textColor="#AB707776"
+                android:textSize="17sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/l1"
+        app:layout_constraintStart_toStartOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/l1"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textview_sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sound"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="center"/>
+
+        <RadioGroup
+            android:id="@+id/radiogroup_sound_select"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/sound_on"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/radio_shape_btn_on"
+                android:button="@null"
+                android:text="ON"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textColor="#AB979797"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/sound_off"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:background="@drawable/radio_shape_btn_off"
+                android:button="@null"
+                android:maxLines="1"
+                android:text="OFF"
+                android:textAlignment="center"
+                android:textColor="#A7A8A8"
+                android:textSize="17sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/back"
+        android:text="close"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/l2"
+        app:layout_constraintStart_toStartOf="@+id/l2"
+        app:layout_constraintTop_toBottomOf="@+id/l2"
+        android:layout_margin="10dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
