@@ -26,7 +26,22 @@
     ⬇️ Fast Loading.
     ☄️ Improved user experience.
      
-     
+# Latest Source Code Available at Low Price.
+
+For any inquiry, app support or app customization contact us at
+
+–  banrossyn@gmail.com
+
+–  https://wa.me/+919694260426/
+
+–  https://t.me/banrossyn/
+
+# Note:
+This source code will be offical given directly through the developer. You will not find this on any selling website. To buy the source code, you have to directly connect with the developer. For this, payment will have to be made through the method given by the developer, after payment you will be given the source code through mail. Any kind of change in the app will be charged separately. After purchasing the app, you will be helped till it is published.
+
+Regars
+
+Rossyn     
 
  # Download Now:
 <p align="center">
